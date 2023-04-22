@@ -83,7 +83,7 @@ const Products = () => {
                   <a href="#" className="fas fa-eye"></a>
               </div>
               <div className="image">
-                  <img src={book5} alt=""/>
+                  <img src={book3} alt=""/>
               </div>
               <div className="content">
                   <h3>product name</h3>
@@ -251,7 +251,7 @@ const Products = () => {
                   <a href="#" className="fas fa-eye"></a>
               </div>
               <div className="image">
-                  <img src="image/Book9lib.jpg" alt=""/>
+                  <img src={book9} alt=""/>
               </div>
               <div className="content">
                   <h3>product name</h3>
@@ -307,7 +307,7 @@ const Products = () => {
                   <a href="#" className="fas fa-eye"></a>
               </div>
               <div className="image">
-                  <img src="image/Book11lib.jpg" alt=""/>
+                  <img src={book11} alt=""/>
               </div>
               <div className="content">
                   <h3>product name</h3>
