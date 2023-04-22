@@ -1,3 +1,15 @@
+import book1 from 'image/Book1lib'
+import book2 from 'image/Book2lib'
+import book3 from 'image/Book3lib'
+import book4 from 'image/Book4lib'
+import book5 from 'image/Book5lib'
+import book6 from 'image/Book6lib'
+import book7 from 'image/Book7lib'
+import book8 from 'image/Book8lib'
+import book9 from 'image/Book9lib'
+import book10 from 'image/Book10lib'
+import book11 from 'image/Book11lib'
+import book12 from 'image/Book12lib'
 const Products = () => {
     return ( 
         <>
@@ -16,7 +28,7 @@ const Products = () => {
                   <a href="#" className="fas fa-eye"></a>
               </div>
               <div className="image">
-                  <img src="image/Book1lib.jpg" alt=""/>
+                  <img src={book1} alt=""/>
               </div>
               <div className="content">
                   <h3>product name</h3>
@@ -43,7 +55,7 @@ const Products = () => {
                   <a href="#" className="fas fa-eye"></a>
               </div>
               <div className="image">
-                  <img src="image/Book2lib.jpg" alt=""/>
+                  <img src={book2} alt=""/>
               </div>
               <div className="content">
                   <h3>product name</h3>
@@ -71,7 +83,7 @@ const Products = () => {
                   <a href="#" className="fas fa-eye"></a>
               </div>
               <div className="image">
-                  <img src="image/Book4lib.jpg" alt=""/>
+                  <img src={book5} alt=""/>
               </div>
               <div className="content">
                   <h3>product name</h3>
@@ -99,7 +111,7 @@ const Products = () => {
                   <a href="#" className="fas fa-eye"></a>
               </div>
               <div className="image">
-                  <img src="image/Book4lib.jpg" alt=""/>
+                  <img src={book4} alt=""/>
               </div>
               <div className="content">
                   <h3>product name</h3>
@@ -127,7 +139,7 @@ const Products = () => {
                   <a href="#" className="fas fa-eye"></a>
               </div>
               <div className="image">
-                  <img src="image/Book5lib.jpg" alt=""/>
+                  <img src={book5} alt=""/>
               </div>
               <div className="content">
                   <h3>product name</h3>
@@ -155,7 +167,7 @@ const Products = () => {
                   <a href="#" className="fas fa-eye"></a>
               </div>
               <div className="image">
-                  <img src="image/Book6lib.jpg" alt=""/>
+                  <img src={book6} alt=""/>
               </div>
               <div className="content">
                   <h3>product name</h3>
@@ -183,7 +195,7 @@ const Products = () => {
                   <a href="#" className="fas fa-eye"></a>
               </div>
               <div className="image">
-                  <img src="image/Book13lib.jpg" alt=""/>
+                  <img src={book7} alt=""/>
               </div>
               <div className="content">
                   <h3>product name</h3>
@@ -211,7 +223,7 @@ const Products = () => {
                   <a href="#" className="fas fa-eye"></a>
               </div>
               <div className="image">
-                  <img src="image/Book8lib.jpg" alt=""/>
+                  <img src={book8} alt=""/>
               </div>
               <div className="content">
                   <h3>product name</h3>
@@ -267,7 +279,7 @@ const Products = () => {
                   <a href="#" className="fas fa-eye"></a>
               </div>
               <div className="image">
-                  <img src="image/Book10lib.jpg" alt=""/>
+                  <img src={book10} alt=""/>
               </div>
               <div className="content">
                   <h3>product name</h3>
@@ -323,7 +335,7 @@ const Products = () => {
                   <a href="#" className="fas fa-eye"></a>
               </div>
               <div className="image">
-                  <img src="image/Book12lib.jpg" alt=""/>
+                  <img src={book12} alt=""/>
               </div>
               <div className="content">
                   <h3>product name</h3>
